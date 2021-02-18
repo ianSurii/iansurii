@@ -74,7 +74,7 @@
                     I<span style="color:#E04343;">a</span>n<br/>
                     <span>Mu<span style="color:#FFE800">thu</span>ri</span>
                   </h1><!-- Title -->
-                  <h3 class="animated fadeInUp delay-05s"><span class="rotate">Web Designer,Photographer,3d Artist</span></h3><!-- Text Rotator -->
+                  <h3 class="animated fadeInUp delay-05s"><span class="rotate">Full Stack Web Developer,Web Designer,Android Developer</span></h3><!-- Text Rotator -->
                 </div>
               </div>
 			  <!-- Learn More Button -->
