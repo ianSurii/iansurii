@@ -1,7 +1,7 @@
 <?php
 include('page.html');
 include 'classes/DbFunctions.php';
-$visitor_ip = $_SERVER['REMOTE_ADDR'];
+$visitor_ip = $_SERVER['REMOTE_ADgDR'];
 $execute=new dbFunction();
 $column="ip,time";
 $values="'$visitor_ip',CURRENT_TIME";
