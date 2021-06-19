@@ -1,23 +1,8 @@
 [
     {
-      "Location_Number": "-76.97892538.882767",
+      "location_number": "-76.97892538.882767",
       "Location_Name": "John Dean and Hannibal Hamlin Burial Sites",
-      "coordinates": [-76.978923660098019, 38.882767398397789]
-    },
-    
-    {
-      "Location_Number": "-76.97892538.882767",
-      "Location_Name": "John Dean and Hannibal Hamlin Burial Sites",
-      "coordinates": [-76.978923660098019, 38.882767398397789]
-    },
-    {
-      "Location_Number": "-76.97892538.882767",
-      "Location_Name": "John Dean and Hannibal Hamlin Burial Sites",
-      "coordinates": [-76.978923660098019, 38.882767398397789]
-    },
-    {
-      "Location_Number": "-76.97892538.882767",
-      "Location_Name": "John Dean and Hannibal Hamlin Burial Sites",
-      "coordinates": [-76.978923660098019, 38.882767398397789]
-    },
+      "latitude": -76.978923660098019,
+      "longitude": 38.882767398397789
+    }
     ]
