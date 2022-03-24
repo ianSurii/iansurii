@@ -15,12 +15,14 @@ def index(request):
         # Using the objects model manage to read all course list
         # and sort them by total_enrollment descending
         services = Services.objects.order_by('id')
+        tools = Tool.objects.order_by('id')
         blog = Blog.objects.order_by('id')
         about = About.objects.order_by('id')
         project = Projects.objects.order_by('id')
         # Appen the course list as an entry of context dict
         context['services'] = services
         context['about'] = about
+        context['tools'] = tools
         context['blog'] = blog
         # context['blog'] = blog
         context['project'] = project
