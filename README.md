@@ -14,11 +14,13 @@ I am also a <a href ="https://medium.com/@ianmuthuri254">writer</a>  and I write
 <a href="https://www.buymeacoffee.com/ianmuthuri"><img height="30" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.kFWRE6GIDbIJ_2i7NOVABgAAAA%26pid%3DApi&f=1"></a>
 <a href="https://www.linkedin.com/in/muthuri-ian-a6b306151/"><img height="30" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.e5DqB2ku7q9ZTE3vgU3gpAHaHw%26pid%3DApi&f=1"></a>
  <a href="https://stackoverflow.com/users/13535478/iansurii"><img height="30" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ficonape.com%2Fwp-content%2Fpng_logo_vector%2Fstack-overflow-icon.png&f=1&nofb=1"></a>
-</p>
+</p >
 
 <hr style="height:2px; background:white">
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=IanSurii&show_icons=true" alt="IanSurii" />
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=IanSurii&show_icons=true" alt="IanSurii"/>
 
+ </p>
 <!-- <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IanSurii&layout=compact&hide=html" alt="IanSurii" /> -->
 
 <!-- Paragraph aligned at the center and containing images of IDEs like vsocde and others -->
@@ -51,6 +53,13 @@ Tools I use  and  have experience in in the following:
 <a href="https://www.visualstudio.com/"><img height="40" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthetechportal.com%2Fwp-content%2Fuploads%2F2019%2F12%2Faws-logo.png&f=1&nofb=1"></a>
 </p>
 <hr style="height:2px; background:white">
+<hr style="height:2px; background:white">
+<p style="background:black;border-radius:10px;padding:5px">
+My waka time perfomance
+</p>
+<p align="left">
+ <a href="https://wakatime.com"><img src="https://wakatime.com/share/@IanSurii/94a5e0e8-4e4c-4b4f-bd99-6fbe4acf92a9.png"  /></a>
+ </p>
 <p style="background:black;border-radius:10px;padding:5px">
 Currently learning: Golang and Azure cloud .
 </p>
