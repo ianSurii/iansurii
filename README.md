@@ -4,10 +4,11 @@
 style="background:black;border-radius:10px;padding:5px"
 >A Software Engineer  and passionate in other fields such Data Science, Machine Learning,CyberSecurity and Networking  .I love cotributing to Open Source  and sharing my knowledge .
 Currently working as a IT Supprt Specialist and FreeLancer Software Engineer .
-I am also a <a href ="https://medium.com/@ianmuthuri254">writer</a>  and I write about my experiences in the field of Programming  ,Data Science , CyberSecurity  and hacking .
+I am also a <a href ="https://medium.com/@ianmuthuri254">writer</a>  and I write about my experiences in the field of Programming  ,Data Science , CyberSecurity  and hacking . Some of my projects ara availble on my portfolio <a href="https://ianmuthuri.herokuapp.com/">here </a>&nbsp;&nbsp;
  </p>
  <hr style="height:2px; background:white">
 <p align='center' style="background:white;border-radius:10px">
+ <a href="https://ianmuthuri.herokuapp.com/"><img height="30" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.happydesigner.co.uk%2Fwp-content%2Fuploads%2F2010%2F06%2FPortfolioMarketing-logo-1024x491.jpg&f=1&nofb=1"></a>&nbsp;&nbsp;
 <a href="https://medium.com/@ianmuthuri254"><img height="30" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.0s5xo_FsIXqNr91F2MGtvQHaEH%26pid%3DApi&f=1"></a>&nbsp;&nbsp;
 <a href="https://twitter.com/ian_surii"><img height="30" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.uQlQc1ej3xTRMpywzGuFvAHaHw%26pid%3DApi&f=1"></a>&nbsp;&nbsp;
 <a href="https://www.instagram.com/iansurii/"><img height="30" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.B2jAIMD6FXO4S_32ZdNBtwHaHW%26pid%3DApi&f=1"></a>&nbsp;&nbsp;
