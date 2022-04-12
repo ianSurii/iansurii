@@ -58,7 +58,7 @@ Tools I use  and  have experience in in the following:
 My waka time perfomance
 </p>
 <p align="left">
- <a href="https://wakatime.com"><img src="https://wakatime.com/share/@IanSurii/94a5e0e8-4e4c-4b4f-bd99-6fbe4acf92a9.png"  /></a>
+ <a href="https://wakatime.com"><img src="https://wakatime.com/share/@IanSurii/94a5e0e8-4e4c-4b4f-bd99-6fbe4acf92a9.png" height="200" /></a>
  </p>
 <p style="background:black;border-radius:10px;padding:5px">
 Currently learning: Golang and Azure cloud .
