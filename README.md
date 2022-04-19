@@ -4,7 +4,7 @@
 style="background:black;border-radius:10px;padding:5px"
 >A Software Engineer  and passionate in other fields such Data Science, Machine Learning,CyberSecurity and Networking  .I love cotributing to Open Source  and sharing my knowledge .
 Currently working as a IT Supprt Specialist and FreeLancer Software Engineer .
-I am also a <a href ="https://medium.com/@ianmuthuri254">writer</a>  and I write about my experiences in the field of Programming  ,Data Science , CyberSecurity  and hacking . Some of my projects ara availble on my portfolio <a href="https://ianmuthuri.herokuapp.com/">here </a>&nbsp;&nbsp;
+I am also a <a href ="https://medium.com/@ianmuthuri254">writer</a>  and I write about my experiences in the field of Programming  ,Data Science , CyberSecurity  and hacking . Some of my projects are availble on my portfolio <a href="https://ianmuthuri.herokuapp.com/">here </a>&nbsp;&nbsp;
  </p>
  <hr style="height:2px; background:white">
 <p align='center' style="background:white;border-radius:10px">
