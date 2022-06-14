@@ -1,0 +1,203 @@
+<!-- show visitors table  -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Visitors</title>
+    <!-- <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuUhnC2p8pB65r6S9oHyXQdKY3VvUUqCI"></script> -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDT2_sA3Z-aoztwo3AhNk8shuwWu7l80GA" async defer></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+    <style type="text/css">
+        .wrapper{
+            width: 500px;
+            margin: 0 auto;
+        }
+        #map {
+	border-radius : 10px;
+	border : solid 4px #08d3f7;
+
+	margin: 5px;
+	width: 700px;
+	height : 40%;
+
+	
+
+}
+    </style>
+
+
+<body>  
+    
+</body>
+{% if visitors%}
+
+<script>
+    // get data from python
+       
+    (function() {
+
+window.onload = init;
+//decalare and initilizing
+
+
+var startLatitude;
+var startLongitude;
+
+var map;
+var mypath = [];
+var currentLat;
+var currentLong;
+
+
+
+
+
+
+
+// register the event handlers
+
+function init() {
+//initializing 
+
+
+ //on click listener
+startTrackingLocation();
+
+
+
+
+
+
+
+
+}
+
+function startTrackingLocation() {
+
+ 
+ //check if geolocation is supported
+ if (navigator.geolocation) {
+    //  call the show postion method
+    
+     navigator.geolocation.getCurrentPosition(showStartPosition);
+      //disable the button
+    
+
+    
+ } else {
+     //show geoocation is not supported
+    
+}
+
+
+
+}
+function showStartPosition(position) {
+ //displa the start lat and longitude
+
+//  startLatitude.innerHTML = "Start Latitude: " + position.coords.latitude;
+//  startLongitude.innerHTML = "Start Longitude: " + position.coords.longitude;
+//  countervalue;
+//  //show update count
+//  counter.innerHTML = "Update#: " + countervalue;
+ //set the LtLang object to show the marker and center of the map
+ const startLocation = { lat: position.coords.latitude, lng: position.coords.longitude };
+
+//displa the map
+ map = new google.maps.Map(document.getElementById("map"), {
+     zoom: 1,
+     center: startLocation,
+    
+    });
+//    /set maker
+    const marker = new google.maps.Marker({
+        position: startLocation,
+        map: map,
+    });
+
+      
+      
+      
+
+    var data = '{{visitors|escapejs}}';
+    console.log(data+"data")
+
+}
+
+
+
+})();
+ </script>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="map"></div>
+
+            </div>
+        </div>
+      
+       
+        <div class="row">
+            <div class="col-md-12">
+                <div class="page-header">
+                    <h2>Visitors</h2>
+                </div>
+                <div class="form-group">
+                    <label>Search</label>
+                    <input type="text" class="form-control" id="search" name="search">
+                </div>
+                <table class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                           
+                            
+
+                    
+                            <th>IP Address</th>
+                            
+                            <th>Date</th>
+                            
+                            <th>Time</th>
+                            <th>Country</th>
+                            <th>City</th>
+                            <th>Region</th>
+                            <th>Latitude</th>
+                            <th>Longitude</th>
+                            <th>Continent</th>
+                            
+                        </tr>
+
+<!-- //display the table of the first 10 visitors -->
+                        {% if visitors %}
+                            {% for visitor in visitors %}
+                                <tr>
+                                    <td>{{ visitor.ip_address }}</td>
+                                    <td> {{visitor.date}}</td>
+                                        <td>{{ visitor.time }}</td>
+                                    <td>{{ visitor.country }}</td>
+                                    <td>{{ visitor.city }}</td>
+                                    <td>{{ visitor.region_name }}</td>
+                                    <td>{{ visitor.latitude }}</td>
+                                    <td>{{ visitor.longitude }}</td>
+                                    <td>{{ visitor.continent_name }}</td>
+                                    
+                                  
+
+
+                        </tr>
+                            {% endfor %}
+                        {% else %}
+                            <tr>
+                                <td colspan="8">No records found</td>
+                            </tr>
+                        {% endif %}
+                    </thead>
+                    
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+<body>
+
+</html>

@@ -33,6 +33,7 @@ ALLOWED_HOSTS = ['127.0.0.1','ianmuthuri.herokuapp.com']
 
 INSTALLED_APPS = [
     'ianmuthuri.apps.IanmuthuriConfig',
+    
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -40,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'whitenoise.runserver_nostatic',
+    
     
 ]
 
@@ -130,11 +132,24 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'ianmuthuri/static')
 # MEDIA_URL = 'static/media/'
 # HTTPS_ROOT = os.path.join(STATIC_ROOT, 'media')
 # MEDIA_URL = 'static/media/'
-UPLOADS_ROOT = os.path.join(BASE_DIR, 'static/uploads')
-STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
+UPLOADS_ROOT = os.path.join(BASE_DIR, 'ianmuthuri/static/uploads')
+# STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+GOOGLE_MAPS_KEY = 'ABQIAAAAaP6spDi8OofHsLmWK8bZEhQCULP4XOMyhPd8d_NrQQEO8sT8XBQD-q-healg6KF2Fcm1SDbZ8VG7sw'
+TRACKING_USE_GEOIP = True
+GEOIP_PATH = os.path.join(BASE_DIR, 'GeoLiteCity.dat')
+TRACKING_TIMEOUT = 5 # in minutes
+TRACKING_CLEANUP_TIMEOUT = 5 # in hours
+NO_TRACKING_PREFIXES = [
+    '/media/',
+    '/admin/',
+]
+
+import logging
+logging.basicConfig(filename='tracking.log', level=logging.DEBUG)

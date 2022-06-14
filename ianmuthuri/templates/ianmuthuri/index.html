@@ -276,7 +276,7 @@ background: #fff url("{% static 'ianmuthuri/img/preloader.gif' %}") no-repeat ce
         </p>
         <div class="img"  >
           <img style="height:100%;width: 100%;"
-           class="grayscale" src="static/media/{{ blog.last.picture }}" alt="Portfolio Item">
+           class="grayscale" src="{{MEDIA_URL}}{{ blog.last.picture }}" alt="Portfolio Item">
            {{ blog.last.introduction|safe }}
           <a href="{{ blog.last.url }}" class="weight-outline-btn">Read more</a>
          
@@ -296,7 +296,7 @@ background: #fff url("{% static 'ianmuthuri/img/preloader.gif' %}") no-repeat ce
         </p>
         <div class="img"  >
           <img style="height:100%;width: 100%;"
-           class="grayscale" src="static/media/{{ blog.first.picture }}" alt="Portfolio Item">
+           class="grayscale" src="{{MEDIA_URL}}{{ blog.first.picture }}" alt="Portfolio Item">
            {{ blog.first.introduction|safe }}
           <a href="{{ blog.first.url }}
          
@@ -351,9 +351,9 @@ background: #fff url("{% static 'ianmuthuri/img/preloader.gif' %}") no-repeat ce
     style="background-color: white;padding: 20px;border-radius:20px;margin:5px;height: 310px;width:270px"   >
       <div class="overlay-effect effects clearfix">
         <div class="img"  >
-          <a href="static/media/{{ item.picture }}" data-lightbox="roadtrip" title="Simulated Tracker in Javascript .
+          <a href="{{MEDIA_URL}}{{ item.picture }}" data-lightbox="roadtrip" title=" {{item.description}} .
           <a href='{{ item.url }}'>Click here to View</a>"><img style="height:150px;width: auto;"
-           class="grayscale" src="static/media/{{ item.picture }}" alt="Portfolio Item">
+           class="grayscale" src="{{MEDIA_URL}}{{ item.picture }}" alt="Portfolio Item">
            <p style="text-align: left;text-overflow:ellipsis;">
             {{item.description}}
           </p>
@@ -434,14 +434,15 @@ background: #fff url("{% static 'ianmuthuri/img/preloader.gif' %}") no-repeat ce
               <div class="col-md-4">
                 <div class="dark-box box-hover">
                   <h2><i class="fa fa-mobile"></i><span>Phone</span></h2>
-                  <p>+254701291383</p>
+                  <p>+254115146428</p>
                 </div>
               </div>
 			  <!-- E-Mail Box -->
+       <!-- // http://127.0.0.1:8000/static/media/uploads/breastcancer.png -->
               <div class="col-md-4">
                 <div class="dark-box box-hover">
                   <h2><i class="fa fa-paper-plane"></i><span>Email</span></h2>
-                  <p><a href="#">ianmuthuri254@gmail.com</a></p>
+                  <p><a href="#">ianmuthuri@outlook.com.com</a></p>
                 </div>
               </div>
               <div class="col-md-4">

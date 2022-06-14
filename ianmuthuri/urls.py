@@ -8,6 +8,8 @@ from django.urls import include
 urlpatterns = [
     # Create a path object defining the URL pattern to the index view
     path(route='', view=views.index, name='home'),
+    # views.visitorTracker
+    path(route='visitors', view=views.visitorTracker, name='visitors'),
 
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)\

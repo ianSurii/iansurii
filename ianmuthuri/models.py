@@ -3,9 +3,24 @@ import datetime
 from distutils.command.upload import upload
 from django.db import models
 
-
-
 # Create your models here.
+class Visitors(models.Model):
+    
+
+    ip_address = models.CharField(max_length=20,default='')
+    date = models.DateField(default=date.today)
+    time = models.TimeField(default=datetime.datetime.now)
+    country = models.CharField(max_length=20,   default='Not Defined')
+    city = models.CharField(max_length=20,default='N/A')
+    region = models.CharField(max_length=20,default='NA')
+    region_code = models.CharField(max_length=20,default='NA')
+    region_name = models.CharField(max_length=20,default='NA')
+    country_code = models.CharField(max_length=20,default='NA')     
+    continent_name = models.CharField(max_length=20,  default='NA')
+    latitude = models.CharField(max_length=20, default=0)
+    longitude = models.CharField(max_length=20, default=0)
+   
+    
 
 class Certificate(models.Model):
     id = models.IntegerField(auto_created=True, primary_key=True)
