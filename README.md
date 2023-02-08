@@ -53,5 +53,6 @@ Tools I use  and  have experience in in the following:
 Currently learning: Golang and Azure cloud .
 </p>
 <hr style="height:2px; background:white">
-<figure><embed src="https://wakatime.com/share/@IanSurii/789046fd-1e87-4a11-a0aa-b2f919877965.svg"></embed></figure>
+<img height="300" src="https://wakatime.com/share/@IanSurii/59b2034e-7a07-44ea-8cde-d16229164741.png"/>
+
 <hr style="height:2px; background:white">
