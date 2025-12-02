@@ -17,6 +17,7 @@ concurrency:
 
 jobs:
   build:
+    name: Build Flutter Web
     runs-on: ubuntu-latest
     
     steps:
@@ -26,14 +27,13 @@ jobs:
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.24.0'
           channel: 'stable'
           cache: true
       
-      - name: Install dependencies
+      - name: Get dependencies
         run: flutter pub get
       
-      - name: Build Flutter Web
+      - name: Build Web
         run: flutter build web --release --base-href "/iansurii/"
       
       - name: Upload artifact
